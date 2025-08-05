@@ -483,9 +483,9 @@
                           React.createElement('p', { className: "text-sm text-gray-600" }, "Accuracy"),
                           React.createElement('p', { className: "text-lg font-bold text-purple-600" }, `${agent.avgAccuracy}/3`)
                         ),
-                        React.createElement('div', { className: "text-center p-3 bg-orange-50 rounded-lg" },
+                        React.createElement('div', { className: "text-center p-3 bg-yellow-50 rounded-lg" },
                           React.createElement('p', { className: "text-sm text-gray-600" }, "Empathy"),
-                          React.createElement('p', { className: "text-lg font-bold text-orange-600" }, `${agent.avgEmpathy}/3`)
+                          React.createElement('p', { className: "text-lg font-bold text-yellow-600" }, `${agent.avgEmpathy}/3`)
                         )
                       ),
 
@@ -507,9 +507,9 @@
                         ),
 
                         // Recommendations
-                        agent.recommendations.length > 0 && React.createElement('div', { className: "bg-orange-50 p-4 rounded-lg border border-orange-200" },
-                          React.createElement('h4', { className: "font-semibold text-orange-800 mb-2 flex items-center" },
-                            React.createElement(AlertTriangle, { className: "mr-2 h-4 w-4 text-orange-600" }),
+                        agent.recommendations.length > 0 && React.createElement('div', { className: "bg-red-50 p-4 rounded-lg border border-orange-200" },
+                          React.createElement('h4', { className: "font-semibold text-red-800 mb-2 flex items-center" },
+                            React.createElement(AlertTriangle, { className: "mr-2 h-4 w-4 text-red-600" }),
                             `⚠️ Recommendations (${agent.improvementCount} need attention)`
                           ),
                           React.createElement('ul', { className: "text-sm text-orange-700 space-y-1" },
